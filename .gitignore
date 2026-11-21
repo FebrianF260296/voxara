@@ -1,0 +1,16 @@
+# Rust build artifacts & binaries
+/target/
+*.exe
+*.dll
+*.pdb
+
+# User calibration, soundboard recordings, settings & exported audio
+/data/
+/output/
+*.wav
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
